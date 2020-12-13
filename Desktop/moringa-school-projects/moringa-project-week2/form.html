@@ -3,6 +3,7 @@
 <head>
 	<title>Find your akan name</title>
 	<link rel="stylesheet" type="text/css" href="form.css">
+	<script type="text/javascript" href="script.js" ></script>
 </head>
 <body>
 	<div class="container">
@@ -17,15 +18,15 @@
 			<input class="input-date" id="input-date"type="date" data-provide="date-picker" name="date" placeholder="birth date">
 		</div>
 		<div class="form-check">
-			<label class="form-check label" type="radio">Male</label>
+			<label class="form-check label" id="form-check male" type="radio">Male</label>
 			<input class="form-check input"type="radio" name="optradio">
 		</div>
 		<div class="form-check">
-			<label class="form-check label">Female</label>
+			<label class="form-check label" id="form-check female">Female</label>
 			<input class="form-check input" type="radio" name="optradio">
 		</div>
 		<div class="button">
-			<button class="btn btn-success" type="button"value="submit">Submit</button>
+			<button class="btn btn-success" type="button" onclick="myfunction()" value="submit">Submit</button>
 		</div>
 	</div>
 </body>

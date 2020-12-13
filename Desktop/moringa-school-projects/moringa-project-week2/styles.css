@@ -4,10 +4,12 @@ body {
 }
 .navbar-nav {
 	padding-left: 650px;
+	width:90% ;
 }
 .nav-item {
 	padding: 0px 20px 0px 20px;
 }
 .navbar navbar-expand-sm bg-light justify-content-left {
 	margin-bottom: 30px;
+	width:90% ;
 }
