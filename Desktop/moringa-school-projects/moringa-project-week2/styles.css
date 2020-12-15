@@ -4,7 +4,9 @@ body {
 }
 .navbar-nav {
 	padding-left: 650px;
-	width:90% ;
+	width:100% ;
+	opacity: %;
+	background: transparent;
 }
 .nav-item {
 	padding: 0px 20px 0px 20px;
