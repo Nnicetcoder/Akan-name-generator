@@ -5,9 +5,9 @@
 
 	var dayNames=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"] 
 
-function myfunction(){
+function calculateDayValue(){
 	var date = document.getElementById("input-date").value;
-	var DD,MM,CC,YY;
+	var DD,MM,CC,YY;weekday
 
 	DD=parseInt(date.slice(0,2));
 	
@@ -19,7 +19,22 @@ function myfunction(){
 
 
 
-	var weekday = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7;
+	weekday = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7;
+
+	console.log(weekday);
+  	return (Math.floor(weekday));
+	}
+	function getGender(){
+  	var genders = document.getElementsByName("gender");
+  	if(genders[0].checked == true){
+    var gender = "male";
+  	}
+  	else if(genders[1].checked == true){
+    var gender = "female";
+  	}
+  	else{
+    return false;
+  	}
 
     var male_gender = document.getElementById("form-check male").value;
 
@@ -36,4 +51,4 @@ function myfunction(){
 	else if (female.checked==true&&weekday==5) {alert(female[4]);}else if (female==true&&weekday==6) {alert(female[5]);}
 	else (female.checked==true&&weekday==7){alert(female[6]);};
 
-}
+
