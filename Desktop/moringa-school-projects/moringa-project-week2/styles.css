@@ -5,7 +5,6 @@ body {
 .navbar-nav {
 	padding-left: 650px;
 	width:100% ;
-	opacity: %;
 	background: transparent;
 }
 .nav-item {
@@ -13,5 +12,6 @@ body {
 }
 .navbar navbar-expand-sm bg-light justify-content-left {
 	margin-bottom: 30px;
-	width:90% ;
+	width:100% ;
+	background: transparent;
 }
