@@ -1,9 +1,9 @@
 
 	var male = ["kwadwo","kwabena","kwaku","yaw","kofi","kwame","kwasi"];
 
-	var female=["adwoa","adwoa",akua,yaa,afua,ama,akosua];
+	var female=["adwoa","adwoa","akua","yaa","afua","ama","akosua"];
 
-	var dayNames=[sunday,monday,tuesday,wednesday,thursday,friday,saturday] 
+	var dayNames=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"] 
 
 function myfunction(){
 	var date = document.getElementById("input-date").value;
