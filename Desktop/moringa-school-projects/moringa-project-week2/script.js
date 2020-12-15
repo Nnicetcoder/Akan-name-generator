@@ -1,3 +1,10 @@
+
+	var male = ["kwadwo","kwabena","kwaku","yaw","kofi","kwame","kwasi"];
+
+	var female=["adwoa","adwoa",akua,yaa,afua,ama,akosua];
+
+	var dayNames=[sunday,monday,tuesday,wednesday,thursday,friday,saturday] 
+
 function myfunction(){
 	var date = document.getElementById("input-date").value;
 	var DD,MM,CC,YY;
@@ -19,9 +26,7 @@ function myfunction(){
     var female_gender = document.getElementById("form-check female").value;
 
 
-	var male = [kwadwo,kwabena,kwaku,yaw,kofi,kwame,kwasi];
-
-	var female=[adwoa,adwoa,akua,yaa,afua,ama,akosua];
+	
 
 	if(male.checked==true && weekday==1){alert(male[0]);} else if(male.checked==true &&weekday==2){alert(male[1]);}
 	else if (male.checked==true &&weekday==3){alert(male[2]); } else if (male.checked==true &&weekday==4){alert(male[3]);}
