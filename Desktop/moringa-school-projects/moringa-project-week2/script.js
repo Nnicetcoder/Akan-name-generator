@@ -3,11 +3,11 @@
 
 	var femaleNames = ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
 
-	var dayNames=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"] 
+	var dayNames=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"] 
 
-function calculateDayValue(){
+	function calculateDayValue(){
 	var date = document.getElementById("input-date").value;
-	var DD,MM,CC,YY;weekday
+	var DD,MM,CC,YY;weekday;
 
 	DD=parseInt(date.slice(0,2));
 	
@@ -34,11 +34,11 @@ function calculateDayValue(){
   	}
   	else{
     return false;
-  	}
+  	}   ;
 
 
 
-	 switch(gender){
+	 switch(form-check gender){
     case "male":
       if (dayValue == 1 ){
         alert("You were born on " +dayNames[0] + " and Your akan name is " +maleNames[0]+"!");
@@ -61,7 +61,9 @@ function calculateDayValue(){
       else if(dayValue == -0){
         alert("You were born on "+dayNames[6] + " and Your akan name is " +maleNames[6]+"!");
       }
+
     break;
+
     case "female":
       if (dayValue == 1){
         alert("You were born on "+dayNames[0] + " and Your akan name is  " +femaleNames[0]+"!");
